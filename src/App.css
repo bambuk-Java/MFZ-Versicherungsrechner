@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,6 +29,10 @@
 .App-link {
   color: #61dafb;
 }
+input[type="text"] {
+  color: black;
+}
+
 
 @keyframes App-logo-spin {
   from {
